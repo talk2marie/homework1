@@ -6,7 +6,7 @@
 Console.Write("Введите цифру, обозначающую день недели от 1 до 7: ");
 int d = Convert.ToInt32(Console.ReadLine());
 
-if (d < 1 || d > 8) Console.Write("Вы ввели недопустимое значение,otne попробуйте ещё раз!");
+if (d < 1 || d > 8) Console.Write("Вы ввели недопустимое значение, введите значение еще раз!");
 else if (d == 1) Console.Write("Понедельник не является выходным");
 else if (d == 2) Console.Write("Вторник не является выходным");
 else if (d == 3) Console.Write("Среда не является выходным");
